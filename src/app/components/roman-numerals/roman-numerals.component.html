@@ -4,8 +4,9 @@
       <h5 class="card-title"></h5>
   <label for="">Ingrese el número que desea convertir a Romano:</label>
   <input type="text" #numero>
-  <button type="button" class="btn btn-primary"(click)="prueba(numero.value)" style="margin-left: 10px;">Convertir</button>
-      <br>
+  <button type="button" class="btn btn-primary"(click)="convertirNumero(numero.value)" style="margin-left: 10px;">Convertir</button>
+  <button  type="button" class="btn btn-primary"(click)="clean(); numero.value=''"   style="margin-left: 10px;">Limpiar</button>
+  <br>
   <label style="margin-top:7px">El número en Romano es: {{romano}} </label>
 
 </div>

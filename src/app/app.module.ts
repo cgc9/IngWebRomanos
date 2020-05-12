@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { MatButtonModule, MatCardModule, MatInputModule} from '@angular/material';
 import { RomanNumeralsComponent } from './components/roman-numerals/roman-numerals.component';
 
 
@@ -17,9 +16,7 @@ import { RomanNumeralsComponent } from './components/roman-numerals/roman-numera
     AppRoutingModule,
     BrowserModule,
     AppRoutingModule,
-    // MatButtonModule,
-    // MatCardModule,
-    // MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

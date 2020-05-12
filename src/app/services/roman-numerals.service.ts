@@ -8,12 +8,9 @@ export class RomanNumeralsService {
   constructor() { }
 
   convertirArabigoRomano(numero: number) {
-    console.log("pailaaa",numero);
     let unidades = '';
     let decenas = '';
     let centenas = '';
-
-
 
     if (numero > 1000) {
       return 'El número ingresado debe ser menor o igual a 1000';

@@ -14,9 +14,12 @@ export class RomanNumeralsComponent implements OnInit {
   ngOnInit() {
   }
 
-  prueba(numero){
+  convertirNumero(numero){
     this.romano = this.serviceRoman.convertirArabigoRomano(numero);
-    console.log(' Entre ' , this.romano);
+  }
+
+  clean() {
+    this.romano = '';
   }
 
 }
